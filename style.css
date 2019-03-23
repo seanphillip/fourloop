@@ -74,7 +74,7 @@ input[type=text] {
     text-align: center; 
   }
 
-.button {
+.button, #button01 {
     color: rgb(245, 238, 255); font-size: 24px; line-height: 24px; padding: 10px; border-radius: 0px; font-family: Montserrat, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-color: #144E75; box-shadow: rgb(0, 0, 0) 2px 2px 4px 2px; border: 2px solid rgb(28, 110, 164); display: inline-block;
     margin-bottom: 20px;
     color:#313131;
@@ -91,7 +91,7 @@ input[type=text] {
     }
 }
     
-.button:hover {
+.button:hover, #button01:hover {
     background: #129700;
     color: #fff;
     cursor: pointer;
