@@ -60,9 +60,12 @@ fetch(
       //console.log(input);
       let count = Math.floor(Math.random() * imageArr.length);
       basicH1.innerHTML = descriptionArr[count];
-      basicH2.innerHTML = "The actual price was: " + priceArr[count];
+      // basicH2.innerHTML = "The actual price was: " + priceArr[count];
       image01.src = imageArr[count];
-      
+      setTimeout(function() {
+       alert('The actual price is: $' + priceArr[count]);
+     }, 10000);
+
       //count++;
       //console.log(count);
     }
