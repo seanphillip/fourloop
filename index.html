@@ -1,45 +1,53 @@
 <!DOCTYPE html>
 
 <head>
-    <title>Hackathon Page</title>
-    <link href="style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+   <title>Hackathon Page</title>
+   <link href="style.css" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <!-- empty for now -->
-        </header>
-        <section class="main">
-            <h1 class="main-title">Price Guesser</h1>
+   <div class="container">
+       <header>
+           <!-- empty for now -->
+       </header>
+       <section class="main">
+           <h1 class="main-title">Price Guesser</h1>
 
-            <img src=" https://img.bbystatic.com/BestBuy_US/images/products/5670/5670100_sa.jpg
-                " alt="">
+           <!--<img src=" https://img.bbystatic.com/BestBuy_US/images/products/5670/5670100_sa.jpg
+               " alt="">-->
+               <img src = 'https://www.ready.gov/kids/games/data/dm-english/scenes/wildfire/start.png' id="img01" />
 
-            <div class="description">
-                <p>TCL - 75" Class - LED - 6 Series - 2160p - Smart - 4K UHD TV with HDR - Roku TV</p>
-            </div>
-            <form class="form" autocomplete="off">
-                What's the Price?<br>
-                $ <input type="text" name="price"><br>
-            </form>
-            <div class="button">
-                GUESS
-            </div>
-        </section>    
-    </div>
+           <div class="description" id = "basicH1">
+               <!--<p>TCL - 75" Class - LED - 6 Series - 2160p - Smart - 4K UHD TV with HDR - Roku TV</p>-->
+              
+           </div>
 
-    <div class="footer">
-        <a id="credit" href="https://developer.bestbuy.com">
-            <img id="credit" src="https://developer.bestbuy.com/images/bestbuy-logo.png" alt="Best Buy Developer API" />
-        </a>
-    </div>
-    <div class="copyright">
-        <p>This page was designed by <a href="http://codeslo.com/">CODESLO</a> students as an excercise in creating a working webpage utilizing HTML, CSS, JS, and API function. Spring, 2019</p>
-    </div>
+           <div class="description" id = "basicH2"></div>
+
+           <form class="form" autocomplete="off" >
+               What's the Price?<br>
+               $ <input type="text" name="price" id="priceEntry" ><br>
+           </form>
+           <!--<div class="button" id="button01">
+               GUESS
+           </div>-->
+           <button type="button" id="button01">Click me!</button>
+       </section>   
+   </div>
+
+   <div class="footer">
+       <a id="credit" href="https://developer.bestbuy.com">
+           <img id="credit" src="https://developer.bestbuy.com/images/bestbuy-logo.png" alt="Best Buy Developer API" />
+       </a>
+   </div>
+   <div class="copyright">
+       <p>This page was designed by <a href="http://codeslo.com/">CODESLO</a> students as an excercise in creating a working webpage utilizing HTML, CSS, JS, and API function. Spring, 2019</p>
+   </div>
+   <script src="main.js"></script>
 </body>
 
 
 <!-- https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6319/6319339_sd.jpg;maxHeight=1000;maxWidth=1000
- -->
+-->
+
